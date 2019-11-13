@@ -1,2 +1,2 @@
 
-Console.log("hello" "How are You");
+console.log("hello " + "How are You");
