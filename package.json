@@ -1,0 +1,23 @@
+{
+  "name": "nature-s-court",
+  "version": "1.0.0",
+  "description": "A decoration website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akinolae/Nature-s-Court.git"
+  },
+  "author": "Akinola Makinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akinolae/Nature-s-Court/issues"
+  },
+  "homepage": "https://github.com/Akinolae/Nature-s-Court#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
