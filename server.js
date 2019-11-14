@@ -3,8 +3,8 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) =>{
-    
-})
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src', 'index.html'));
+});
 
 app.listen(port, ()=> console.log("app is running on port", port));
